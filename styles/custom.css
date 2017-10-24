@@ -1,0 +1,164 @@
+/*#365968*/
+
+
+body{
+background-color: #c6d0cc;
+}
+
+
+.jumbotron{
+    margin-top: -30rem;
+    background-color:#D4E0E0;
+   
+}
+
+.display-3{
+    font-size: 45px;
+    letter-spacing: 3rem;
+    font-weight: 500;
+    color: #365968;
+}
+.cassette{
+    margin-right: -5rem;
+    margin-top: -8rem;
+    visibility: visible;
+    
+}
+
+.flex-row{
+    margin-top: 12rem;
+}
+
+.btn{
+    font-weight:500;
+    letter-spacing: 2px;
+    color: #365968;
+    background-color: #D4E0E0;
+    opacity: 44%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+    border-radius:0px;
+}
+.orderbutton{
+    border-bottom-style: none
+}
+.albums{
+    border:3px solid #fff;
+   
+}
+.text-center{
+    margin-top: 20px;
+    color:#365968;
+
+}
+
+.text-cd-p{
+    margin-top: 15px;
+    font-weight: 20px;
+    color:#365968;
+    padding: 15px;
+}
+.row-1{
+    margin-top: 30px;
+}
+
+.row-2{
+    margin-top: 70px;
+}
+article{
+    margin-top: 300px;
+}
+.lijst{
+    background-color: #D4E0E0;
+    font-weight: 20px;
+    font-size:20px;
+    color:#365968;
+    line-height: 39px;
+    font-weight: 400;
+    padding-left: 7rem;
+}
+
+footer{
+    margin-top:6rem;
+}
+
+
+    
+  
+    
+@media (max-width: 767px){
+    .cassette{
+        visibility: hidden;
+    }
+    
+    .display-3{
+    font-size: 20px;
+    letter-spacing: 1.5rem;
+    font-weight: 500;
+    color: #365968;
+    }
+    article{
+    margin-top: 30px;
+    }
+
+}
+@media (max-width: 991px){
+    
+    .cassette{
+        visibility: hidden;
+    }
+    
+
+article{
+    margin-top: 30px;
+}
+    .display-3{
+    font-size: 30px;
+    letter-spacing: 1.5rem;
+    font-weight: 500;
+    color: #365968;
+    }
+
+    
+}
+
+
+
+/*
+    
+  
+    <!-- Tupac - All Eyez on Me -->
+
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <article class="albums">
+        <img src="styles/img/2pac!.jpg" class="img-fluid" alt="Responsive Image" />
+        <h1>Tupac</h1>
+        <h2>“All Eyez on Me”</h2>
+        <p>Hip-hop 1996</p>
+        <p>
+            All Eyez on Me is the
+            fourth studio album by
+            American rapper 2Pac
+            and the last one to be
+            released during his lifetime.
+            It was released on
+            February 13, 1996, by
+            Death Row Records And
+            Interscope Records
+        </p>
+        <ol class="hidden-sm hidden-md hidden-lg text-left">
+          
+        </ol>
+        <button class="btn btn-default btn-block" type="submit"><a href="https://itunes.apple.com/us/album/the-wall/id1065975633">Order</a></button>
+        <button class="btn btn-default btn-block hidden-sm hidden-md hidden-lg" type="submit" name="button"><a href="https://open.spotify.com/album/0gI6zLhhO1X5hH8uHzZ97s">Listen</a></button>
+      </article>
+    </div>
+  </section>
+
+*/
+
+
